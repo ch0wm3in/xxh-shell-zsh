@@ -35,5 +35,7 @@ for pluginrc_file in $(find $CURRENT_DIR/../../../../../plugins/*-zsh-*/build -t
   fi
 done
 setopt -o nomatch
+export POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+source ~/.xxh/shells/xxh-shell-zsh/build/.p10k.zsh
 
 cd ~
