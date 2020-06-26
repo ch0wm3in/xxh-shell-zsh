@@ -43,3 +43,4 @@ fi
 
 tar -xzf $tarname
 rm $tarname
+cp ~/.p10k.zsh $build_dir
