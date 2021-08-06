@@ -1,4 +1,11 @@
-[xxh](https://github.com/xxh/xxh) entrypoint for [romkatv/zsh-bin](https://github.com/romkatv/zsh-bin) - statically-linked, hermetic, relocatable Zsh.
+<p align="center">  
+<a href="https://github.com/xxh/xxh">xxh</a> entrypoint for <a href="https://github.com/romkatv/zsh-bin">romkatv/zsh-bin</a> - statically-linked, hermetic, relocatable Zsh.
+</p>
+
+<p align="center">  
+If you like the idea of xxh click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Use%20the%20zsh%20shell%20wherever%20you%20go%20through%20the%20SSH%20without%20installation%20on%20the%20host.&url=https://github.com/xxh/xxh-shell-zsh" target="_blank">tweet</a>.
+</p>
+
 ## Install
 Install from xxh repo:
 ```

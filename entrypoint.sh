@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #
 # Support arguments (this recommend but not required):
@@ -118,9 +118,12 @@ else
   export XDGPATH=$XXH_HOME
 fi
 
+
+export XXH_SHELL=zsh
 export XDG_CONFIG_HOME=$XDGPATH/.config
 export XDG_DATA_HOME=$XDGPATH/.local/share
 export XDG_CACHE_HOME=$XDGPATH/.cache
+export XAUTHORITY=/home/$USER/.Xauthority
 
 for pluginrc_file in $(find $CURRENT_DIR/../../../plugins/xxh-plugin-*/build -type f -name '*prerun.sh' -printf '%f\t%p\n' 2>/dev/null | sort -k1 | cut -f2); do
   if [[ -f $pluginrc_file ]]; then
